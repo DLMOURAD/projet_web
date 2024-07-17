@@ -1,0 +1,123 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-image: url('images/55.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    padding: 20px;
+    margin: 0; /* Enlève les marges par défaut du body */
+}
+
+.item-gallery {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #141414;
+    border: 3px solid #222020;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(132, 170, 175, 0.555); /* Fond semi-transparent */
+    font-size: 2.5em;
+    transition: transform 0.3s; /* Animation d'effet */
+}
+
+h1:hover {
+    transform: scale(1.05); 
+}
+
+h3 {
+    color: #e02929;
+    border: 2px solid #2e2d2d;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(27, 27, 27, 0.1);
+    background-color: rgba(50, 171, 226, 0.8);
+}
+
+h4 {
+    color: #cfcf1f;
+    border: 2px solid #c3d61c;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(26, 182, 221, 0.144);
+}
+
+p {
+    color: #0f0f0f;
+    border: 1px solid #141414;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(158, 183, 189, 0.616);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #f01520;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e64016;
+}
+
+/* Styles pour le menu */
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0; /* Enlève les marges par défaut */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0c0f0f; /* Couleur similaire aux boutons */
+    transition: background-color 0.3s;
+    display: inline-block; /* Permet le padding vertical */
+}
+
+nav ul li a:hover {
+    background-color: #e64016;
+}
+
+
+
+
+

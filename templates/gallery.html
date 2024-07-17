@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Galerie d'images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Galerie d'images</h1>
+    <div class="gallery">
+        <img src="{{ url_for('static', filename='images/images1.jpeg') }}" alt="Image 1">
+        <img src="{{ url_for('static', filename='images/images2.jpeg') }}" alt="Image 2">
+        <img src="{{ url_for('static', filename='images/images3.jpeg') }}" alt="Image 3">
+        <img src="{{ url_for('static', filename='images/images4.jpeg') }}" alt="Image 4">
+        <img src="{{ url_for('static', filename='images/images5.jpeg') }}" alt="Image 5">
+        <img src="{{ url_for('static', filename='images/images55.jpeg') }}" alt="Image 55">
+    </div>
+    
+    <button onclick="location.href='DOCTYPEindex.html'">Retour à l'accueil</button>
+</body>
+</html>
+
